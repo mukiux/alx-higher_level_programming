@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . | git add . | git commit -m '0x03-python-data_structures' | git push
+ls . | git add . | git commit -m '0x05-python-exceptions' | git push
