@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . | git add . | git commit -m '0x06-python-classes' | git push
+ls . | git add . | git commit -m '0x08-python-more_classes' | git push
