@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """Unittest for base.py file
 """
 import unittest
@@ -436,6 +437,31 @@ class Test_Base(unittest.TestCase):
             os.remove("Square.csv")
         except Exception:
             pass
+=======
+"""Unittest for base
+"""
+
+import unittest
+from models.base import Base
+
+
+class TestBase(unittest.TestCase):
+    """Define unit test for base model"""
+
+    def test_initialization(self):
+        base1 = Base()
+        base2 = Base()
+        self.assertEqual(base1.id, 1)
+        self.assertEqual(base2.id, 2)
+
+    def test_saving_id(self):
+        base = Base(100)
+        self.assertEqual(base.id, 100)
+
+    def test_to_json_string_valid(self):
+        pass
+
+>>>>>>> 0ddb9d54e1ddd41c21b45c074251333c00d4965d
 
 if __name__ == '__main__':
     unittest.main()
