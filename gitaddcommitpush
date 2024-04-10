@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . | git add . | git commit -m "0x0C-python-almost_a_circle" | git push
+ls . | git add . | git commit -m "0x0E-SQL_more_queries" | git push
