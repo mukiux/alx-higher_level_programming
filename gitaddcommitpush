@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . | git add . | git commit -m "0x0F-python-object_relational_mapping" | git push
+ls . | git add . | git commit -m "0x10-python-network_0" | git push
