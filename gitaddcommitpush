@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . | git add . | git commit -m "0x11-python-network_1" | git push
+ls . | git add . | git commit -m "0x14-javascript-web_scraping" | git push
