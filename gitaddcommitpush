@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . | git add . | git commit -m "0x14-javascript-web_scraping" | git push
+ls . | git add . | git commit -m "0x15-javascript-web_jquery/" | git push
